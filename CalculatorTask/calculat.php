@@ -26,7 +26,7 @@ session_start();
 if(isset($_SESSION['result']))
 {
 $result = $_SESSION['result'];
-echo $result;
+echo 'RESULT ='.$result;
 // print_r($_SESSION);
 }
 ?>
